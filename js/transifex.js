@@ -3,8 +3,10 @@ const t = Transifex.t;
 const onEvent = Transifex.onEvent
 const LOCALE_CHANGED = Transifex.LOCALE_CHANGED
 
+const translation = t('PurrfectProject Manager');
+
 const renderMsg = () => { 
-    document.getElementById("saas_string").innerHTML = t('PurrfectProject Manager');
+    document.getElementById("saas_string").innerHTML = translation;
     document.getElementById("title_p").innerHTML = t('A SaaS project management tool designed to streamline and simplify the way teams collaborate, communicate, and complete projects.');
     document.getElementById("a-home").innerHTML = t('HOME');
     document.getElementById('a-benefits').innerHTML = t('BENEFITS');
