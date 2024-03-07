@@ -19,7 +19,7 @@ const renderMsg = () => {
     document.getElementById("btn-sign-up").innerHTML = t('Subscribe');   
     document.getElementById("div-features").innerHTML = t('FEATURES');
     document.getElementById("h2-pm-tools").innerHTML = t('Project Management tools');
-    document.getElementById("p-heading-text").innerHTML = t('Our suite {test} of meticulously crafted features has been designed to revolutionize the way teams collaborate, communicate, and conquer projects.',{test});
+    document.getElementById("p-heading-text").innerHTML = t('Our suite "{test}" of meticulously crafted features has been designed to revolutionize the way teams collaborate, communicate, and conquer projects.',{test});
     document.getElementById('nav-tab-1').innerHTML = t('Kanban board');
     document.getElementById('nav-tab-2').innerHTML = t('Progress tracking');
     document.getElementById('nav-tab-3').innerHTML = t('Collaborative chat');
