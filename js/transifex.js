@@ -11,7 +11,7 @@ const renderMsg = () => {
     document.getElementById("title_p").innerHTML = translation;
     document.getElementById("a-home").innerHTML = t('HOME');
     document.getElementById('a-benefits').innerHTML = t('BENEFITS');
-    document.getElementById("a-services").innerHTML = t('FEAdTURESs');    
+    document.getElementById("a-services").innerHTML = t('FEAdTURES');    
     document.getElementById("a-products").innerHTML = t('PRODUCT');
     document.getElementById("about-us").innerHTML = t('ABOUT US');    
     document.getElementById("a-pricing").innerHTML = t('PLANS');
@@ -19,7 +19,7 @@ const renderMsg = () => {
     document.getElementById("btn-sign-up").innerHTML = t('Subscribe');   
     document.getElementById("div-features").innerHTML = t('FEATURES');
     document.getElementById("h2-pm-tools").innerHTML = t('Project Management tools');
-    document.getElementById("p-heading-text").innerHTML = t("Our suite '{test}' of meticulously crafted features has been designed to revolutionize the way teams collaborate, communicate, and conquer projects.",{test});
+    document.getElementById("p-heading-text").innerHTML = t("Our suite of meticulously crafted features has been designed to revolutionize the way teams collaborate, communicate, and conquer projects.");
     document.getElementById('nav-tab-1').innerHTML = t('Kanban board');
     document.getElementById('nav-tab-2').innerHTML = t('Progress tracking');
     document.getElementById('nav-tab-3').innerHTML = t('Collaborative chat');
