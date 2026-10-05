@@ -716,7 +716,7 @@
         });
 
         function updateLanguage(languageCode) {
-            alert("El codigo de Lenguaje es:" + languageCode);
+            //alert("El codigo de Lenguaje es:" + languageCode);
             tx.setCurrentLocale(languageCode)
             .then(() => console.log(tx.getCurrentLocale()))
             .catch(console.log);
