@@ -11,7 +11,7 @@ const renderMsg = () => {
     document.getElementById("title_p").innerHTML = translation;
     document.getElementById("a-home").innerHTML = t('HOME');
     document.getElementById('a-benefits').innerHTML = t('BENEFITS');
-    document.getElementById("a-services").innerHTML = t('FEAdTURES');    
+    document.getElementById("a-services").innerHTML = t('FEATURES');    
     document.getElementById("a-products").innerHTML = t('PRODUCT');
     document.getElementById("about-us").innerHTML = t('ABOUT US');    
     document.getElementById("a-pricing").innerHTML = t('PLANS');
