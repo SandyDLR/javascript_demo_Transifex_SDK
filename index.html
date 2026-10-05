@@ -712,11 +712,11 @@
         const t = Transifex.t;
 
         tx.init({
-            token: '1/95a5326eb4ce844a95b786117a3e9a5e5fcc66f9',
+            token: '1/5e901306edd13344c8e14f34f6038d160bd416a1',
         });
 
         function updateLanguage(languageCode) {
-            //alert("El codigo de Lenguaje es:" + languageCode);
+            alert("El codigo de Lenguaje es:" + languageCode);
             tx.setCurrentLocale(languageCode)
             .then(() => console.log(tx.getCurrentLocale()))
             .catch(console.log);

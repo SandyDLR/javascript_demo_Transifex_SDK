@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@transifex/cli": "^7.1.5"
+  }
+}
